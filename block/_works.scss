@@ -1,0 +1,103 @@
+.works {
+    margin-top: 200px;
+    padding: 70px;
+
+    &__main_title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-top: 120px;
+    }
+
+    &__main_axis {
+        margin: 100px 30px 50px 30px;
+        width: 720px;
+        height: 1px;
+        background-color: #FDD6BA;   
+    }
+
+    &__rounds {
+        position: relative;
+        bottom: 65px;
+        right: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 325px;
+    }
+
+    &__round {
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+        border: 3px solid #0E8784;
+        background-color: #fff;
+    }
+
+    &__process {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-right: 150px;
+    }
+
+    &__btn {
+        width: 217px;
+        height: 56px;
+        margin-top: 50px;
+        background: #66D2CF;
+        border-radius: 6px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        border: none;
+        transition: all 0.5s ease;
+    }
+
+    &__btn:hover {
+        box-shadow: 0px 0px 20px 0px rgb(0, 27, 45);
+        background-color: #a9e3e1;
+        color: #000;
+    }
+}
+
+    .process {
+        width: 280px;
+
+        &__number {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FDD6BA;
+        }
+
+        &__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+            margin-top: 40px;
+        }
+
+        &__text {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            margin-top: 40px;
+        }
+    }

@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #2C343E;
+    width: 1280px;
+    height: 120px;
+    margin: 100px auto;
+
+    &__logo {
+        width: 300px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-right: 50px;
+    }
+
+    &__link {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #83888F;
+        transition: all 0.5s ease;
+    }
+
+    &__link:hover {
+        color: #fff;
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__icon {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    &__icon:hover {
+        color: #FDD6BA;
+    }
+}

@@ -1,0 +1,54 @@
+.collections {
+    padding: 50px;
+
+    &__img {
+        position: absolute;
+    }
+
+    &__boxes {
+        position: relative;
+        margin-top: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    &__box {
+        width: 260px;
+    }
+
+    &__products {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    &__product {
+        width: 260px;
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333D4B;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+        margin-top: 23px;
+    }
+}

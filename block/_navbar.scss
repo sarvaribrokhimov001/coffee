@@ -1,34 +1,30 @@
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  &__list {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-  }
+    margin: auto;
+    padding: 50px;
 
-  &__link {
-    color: red;
-  }
-    &__link {
-    color: red;
-  }  &__link {
-    color: red;
-  }  &__link {
-    color: red;
-  }  &__link {
-    color: red;
-  }  &__link {
-    color: red;
-  }  &__link {
-    color: red;
-  }  &__link {
-    color: red;
-  }  &__link {
-    color: red;
-  }  &__link {
-    color: red;
-  }
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        gap: 50px;      
+    }
+
+    &__link  {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.92px;
+        text-transform: uppercase;
+        color: #83888F;
+        transition: all 0.5s ease;
+    }
+
+    &__link:hover {
+        color: #333D4B; 
+    }
 }
